@@ -92,5 +92,15 @@ namespace Mqtt_Client
             //receiveTxtBox.AppendText("正在退出系统，断开服务器的连接！\r\n");
             client.Disconnect();
         }
+
+        private void subscribeTopicsBtn_Click(object sender, EventArgs e)
+        {
+            client.Subscribe(new string[] { MQTT_TOPIC }, new byte[] { MqttMsgBase.QOS_LEVEL_AT_MOST_ONCE });
+        }
+
+        private void cancelSubscribeBtn_Click(object sender, EventArgs e)
+        {
+            client.Unsubscribe(new string[] { MQTT_TOPIC });
+        }
     }
 }

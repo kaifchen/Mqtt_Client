@@ -32,6 +32,8 @@
             this.sendBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.receiveTxtBox = new System.Windows.Forms.RichTextBox();
+            this.subscribeTopicsBtn = new System.Windows.Forms.Button();
+            this.cancelSubscribeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // sendTxtBox
@@ -40,13 +42,13 @@
             this.sendTxtBox.Location = new System.Drawing.Point(13, 341);
             this.sendTxtBox.Multiline = true;
             this.sendTxtBox.Name = "sendTxtBox";
-            this.sendTxtBox.Size = new System.Drawing.Size(532, 97);
+            this.sendTxtBox.Size = new System.Drawing.Size(401, 97);
             this.sendTxtBox.TabIndex = 1;
             this.sendTxtBox.Text = "这是一个Mqtt客户端测试程序！";
             // 
             // sendBtn
             // 
-            this.sendBtn.Location = new System.Drawing.Point(592, 332);
+            this.sendBtn.Location = new System.Drawing.Point(614, 331);
             this.sendBtn.Name = "sendBtn";
             this.sendBtn.Size = new System.Drawing.Size(164, 50);
             this.sendBtn.TabIndex = 2;
@@ -56,7 +58,7 @@
             // 
             // exitBtn
             // 
-            this.exitBtn.Location = new System.Drawing.Point(592, 389);
+            this.exitBtn.Location = new System.Drawing.Point(614, 388);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(164, 50);
             this.exitBtn.TabIndex = 2;
@@ -75,12 +77,34 @@
             this.receiveTxtBox.TabIndex = 3;
             this.receiveTxtBox.Text = "";
             // 
+            // subscribeTopicsBtn
+            // 
+            this.subscribeTopicsBtn.Location = new System.Drawing.Point(444, 331);
+            this.subscribeTopicsBtn.Name = "subscribeTopicsBtn";
+            this.subscribeTopicsBtn.Size = new System.Drawing.Size(164, 50);
+            this.subscribeTopicsBtn.TabIndex = 2;
+            this.subscribeTopicsBtn.Text = "订阅主题";
+            this.subscribeTopicsBtn.UseVisualStyleBackColor = true;
+            this.subscribeTopicsBtn.Click += new System.EventHandler(this.subscribeTopicsBtn_Click);
+            // 
+            // cancelSubscribeBtn
+            // 
+            this.cancelSubscribeBtn.Location = new System.Drawing.Point(444, 388);
+            this.cancelSubscribeBtn.Name = "cancelSubscribeBtn";
+            this.cancelSubscribeBtn.Size = new System.Drawing.Size(164, 50);
+            this.cancelSubscribeBtn.TabIndex = 2;
+            this.cancelSubscribeBtn.Text = "取消订阅";
+            this.cancelSubscribeBtn.UseVisualStyleBackColor = true;
+            this.cancelSubscribeBtn.Click += new System.EventHandler(this.cancelSubscribeBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.receiveTxtBox);
+            this.Controls.Add(this.cancelSubscribeBtn);
+            this.Controls.Add(this.subscribeTopicsBtn);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.sendBtn);
             this.Controls.Add(this.sendTxtBox);
@@ -106,6 +130,8 @@
         private System.Windows.Forms.Button sendBtn;
         private System.Windows.Forms.Button exitBtn;
         private System.Windows.Forms.RichTextBox receiveTxtBox;
+        private System.Windows.Forms.Button subscribeTopicsBtn;
+        private System.Windows.Forms.Button cancelSubscribeBtn;
     }
 }
 

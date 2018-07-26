@@ -24,3 +24,15 @@ C:\Users\Thuwin\source\repos\Mqtt-client\Mqtt-client\obj\Debug\Mqtt-client.cspro
 C:\Users\Thuwin\source\repos\Mqtt-client\Mqtt-client\obj\Debug\Mqtt-client.csproj.CopyComplete
 C:\Users\Thuwin\source\repos\Mqtt-client\Mqtt-client\obj\Debug\Mqtt-client.exe
 C:\Users\Thuwin\source\repos\Mqtt-client\Mqtt-client\obj\Debug\Mqtt-client.pdb
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\bin\Debug\Mqtt-client.exe.config
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\bin\Debug\Mqtt-client.exe
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\bin\Debug\Mqtt-client.pdb
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csprojAssemblyReference.cache
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt_Client.Form1.resources
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqttclient.Properties.Resources.resources
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csproj.GenerateResource.cache
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csproj.CoreCompileInputs.cache
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csproj.CopyComplete
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.exe
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.pdb
