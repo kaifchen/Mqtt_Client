@@ -36,3 +36,4 @@ C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csproj
 C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.csproj.CopyComplete
 C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.exe
 C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\obj\Debug\Mqtt-client.pdb
+C:\Users\Thuwin\Documents\GitHub\GitHub\Mqtt-client\bin\Debug\M2Mqtt.Net.dll
